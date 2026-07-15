@@ -13,8 +13,8 @@
 // @grant        GM_addStyle
 // @grant        GM_addValueChangeListener
 // @noframes
-// @updateURL    https://raw.githubusercontent.com/tomjara/autorizacion-cbp/main/autorizacion_cbp.user.js
-// @downloadURL  https://raw.githubusercontent.com/tomjara/autorizacion-cbp/main/autorizacion_cbp.user.js
+// @updateURL    https://raw.githubusercontent.com/Tomjara12/autorizacion_cbp/main/CBP
+// @downloadURL  https://raw.githubusercontent.com/Tomjara12/autorizacion_cbp/main/CBP
 // @run-at       document-idle
 // ==/UserScript==
 
