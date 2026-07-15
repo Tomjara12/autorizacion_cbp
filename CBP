@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Autorización CBP
 // @namespace    http://tampermonkey.net/
-// @version      8.7
+// @version      8.2
 // @description  Panel de credenciales Isengard para bastions SCL - Auto-sync en tiempo real
 // @author       tomjara
 // @match        https://ssh.corp.amazon.com/*
@@ -38,7 +38,7 @@ export DEVICE_TYPE=TEST`;
             const indicator = document.createElement('div');
             indicator.id = 'cbp-isengard-indicator';
             indicator.setAttribute('style', 'position:fixed;bottom:15px;right:15px;background:#1a1a2e;border:2px solid #22c55e;border-radius:8px;padding:10px 14px;z-index:2147483647;font-family:Consolas,monospace;font-size:12px;color:#e0e0e0;box-shadow:0 4px 16px rgba(34,197,94,0.3);transition:all 0.3s ease;');
-            indicator.innerHTML = '👁️ <b>CBP Monitor</b> - Esperando credencialeess...';
+            indicator.innerHTML = '👁️ <b>CBP Monitor</b> - Esperando credenciales...';
             document.body.appendChild(indicator);
 
             let lastCaptured = '';
