@@ -38,7 +38,7 @@ export DEVICE_TYPE=TEST`;
             const indicator = document.createElement('div');
             indicator.id = 'cbp-isengard-indicator';
             indicator.setAttribute('style', 'position:fixed;bottom:15px;right:15px;background:#1a1a2e;border:2px solid #22c55e;border-radius:8px;padding:10px 14px;z-index:2147483647;font-family:Consolas,monospace;font-size:12px;color:#e0e0e0;box-shadow:0 4px 16px rgba(34,197,94,0.3);transition:all 0.3s ease;');
-            indicator.innerHTML = '👁️ <b>CBP Monitor</b> - Esperando credenciales...';
+            indicator.innerHTML = '👁️ <b>CBP Monitor</b> - Esperando credencialess...';
             document.body.appendChild(indicator);
 
             let lastCaptured = '';
