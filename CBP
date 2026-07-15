@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Autorización CBP
 // @namespace    http://tampermonkey.net/
-// @version      8.1
+// @version      8.4
 // @description  Panel de credenciales Isengard para bastions SCL - Auto-sync en tiempo real
 // @author       tomjara
 // @match        https://ssh.corp.amazon.com/*
